@@ -2,7 +2,9 @@ false = False
 true = True
 
 result = 10 <= 10 or 50 == '50' or 100_000 != 100_000 or 'aleatorio' == 'aleatorio' or 0 > 10 or 0 or 1 and True or False
-print(result)
+print(result) # al ser la primera evaluación verdadera y todo el resto al evaluarse con OR, y un AND True, el resultado sera True
+
+
 # Escribir 10 ejemplos con operadores de comparación y operadores logicos and y or, subirlos a github
 
 a = 21
